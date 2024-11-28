@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
 jobs:
-  Deploy: 
+  Deploy:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
